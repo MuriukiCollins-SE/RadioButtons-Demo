@@ -45,7 +45,7 @@ class SimpleRadioButtonDemo {
         // Function to show image
         ActionListener showImage = new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // Get button text and convert to lowercase to match file names
+                
                 String pet = ((JRadioButton) e.getSource()).getText().toLowerCase();
 
                 // Define possible image extensions
